@@ -1,0 +1,20 @@
+// ! boilerplate styles
+.test__container{
+    align-items: center;
+    display: flex;
+    background-color: rgb(61, 61, 61);
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+}
+
+.test__img{
+    cursor: pointer;
+    height: 200px;
+    width: 200px;
+}
+
+.test__text{
+    color: #fff;
+}
