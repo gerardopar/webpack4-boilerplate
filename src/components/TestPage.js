@@ -35,13 +35,13 @@ class TestPage extends Component {
 }
 
 // # redux state
-const mapStateToProps = state => ({
+const mapStateToProps = (state) => ({
         test: state.test
     });
 
 // # redux actions
-const mapDispatchToProps = dispatch => ({
-    testAction: msg => dispatch(setTest(msg))
+const mapDispatchToProps = (dispatch) => ({
+    testAction: (msg) => dispatch(setTest(msg))
 });
 
 TestPage.propTypes = {

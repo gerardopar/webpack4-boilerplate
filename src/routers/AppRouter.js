@@ -13,8 +13,8 @@ const appRouter = () => {
             <Route
               path="/"
               exact
-              render={props => (
-                    <TestPage {...props} />
+              render={() => (
+                    <TestPage />
             )} 
             />
             </Switch>
